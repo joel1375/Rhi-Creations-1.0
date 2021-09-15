@@ -1,0 +1,154 @@
+/* MOBILE FIRST **********************************MOBILE FIRST */
+/* FONT SIZES GLOBAL */
+h1 {
+  color: #fff;
+  font-size: 3.8rem;
+}
+
+h2 {
+  font-size: 2.75rem;
+  color: #316B83;
+  margin: 20px 20px;
+}
+h3 {
+  font-size: 2rem;
+}
+
+h4 {
+  font-size: 1.8rem;
+  margin-left: 50px;
+}
+
+h5 {
+  font-size: 1.6rem;
+  color: #fff;
+}
+
+h6 {
+  font-size: 1.7rem;
+}
+
+p {
+  margin: 10px 10px;
+  line-height: 1.65;
+  font-size: 2rem;
+}
+
+/* CONTAINER */
+
+.tierSection {
+  background-color: #F0D9FF;
+}
+.topContainer {
+  background-color: #8CA1A5;
+}
+
+.secondContainer {
+  background-color: #F3D5C0;
+}
+
+.thirdContainer {
+background-color: #9D9D9D;
+}
+
+.fourthContainer {}
+
+.contactContainer {}
+
+.copyrightContainer {
+  text-align: center;
+  padding: 20px 0;
+  background-color: #8CA1A5;
+}
+
+/* IMAGES */
+.asshtraybackground {
+  width: 100%;
+}
+.pictureHalfWidth {
+  width: 45%;
+  margin-right: 40px;
+}
+
+.pictureQuarterWidth {
+  width: 35%;
+}
+
+.pictureRadius {
+  border-radius: 100%;
+}
+
+.textAlignCenter {
+  text-align: center;
+}
+.textAlignRight {
+  text-align: right;
+}
+
+.textAlignLeft {
+  text-align: left;
+}
+
+.margin-20 {
+  margin: 0 50px;
+}
+
+
+.asshlogo {
+  width: 100%;
+}
+
+.asshlogo2 {
+  position: absolute;
+  width: 20%;
+  transform: translateY(30%);
+  right: 40%;
+}
+
+.asshlogo:hover {
+  opacity: 30%;
+}
+.buttonAssh {
+width: 50%;
+height: 70px;
+
+}
+
+.buttonInside {
+  margin: auto;
+}
+
+.sectionPadding {
+  padding: 40px 15%;
+}
+
+.backgroundAssh {
+  width: 100%;
+}
+
+/* DESKTOP CONFIGURATION********************DESKTOP CONFIGURATION */
+
+@media (max-width: 990px) {
+  .textAlignRight {
+    text-align: center;
+  }
+
+  .textAlignLeft {
+    text-align: center;
+  }
+
+  .margin-20 {
+    margin: 0 0;
+  }
+
+  h5 {
+    font-size: 1.6rem;
+    color: #fff;
+    margin-left: 50px;
+  }
+
+  .pictureHalfWidth {
+    width: 45%;
+    margin-right: 0;
+  }
+}
